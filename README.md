@@ -32,6 +32,5 @@
   ## Roadmap
 
   - [x] `extract-branding-theme`
-  - [ ] `claap-branding` — Claap's own design system
   - [ ] `claap-sales-deck`
   - [ ] `claap-icp`
