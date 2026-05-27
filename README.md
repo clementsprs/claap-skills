@@ -1,9 +1,24 @@
 # Claap skills
 
-  A collection of [Claude skills](https://docs.claude.com/en/docs/agents-and-tools/claude-code/skills) used by the Claap team. Drop one into Claude and it loads on demand
-  when the task matches.
+This repo hosts two things:
 
-  ## Available skills
+1. **The Claap plugin** — a Claude Code [plugin](https://code.claude.com/docs/en/plugins) of ready-to-run AI agents for revenue teams, installable from this repo's marketplace (below).
+2. **Standalone skills** — single-file [Claude skills](https://docs.claude.com/en/docs/agents-and-tools/claude-code/skills) used by the Claap team. Drop one into Claude and it loads on demand when the task matches.
+
+## The Claap plugin — AI agents for revenue teams
+
+Eight ready-to-run agents that work on your real **Claap** call recordings — win/loss analysis, battlecards, onboarding decks, customer stories, daily recaps and more. Each pulls transcripts and deal context via the [Claap MCP server](https://help.claap.io/en/articles/11786341-connect-claude-ai-with-claap-s-mcp-server) (bundled, OAuth) and turns meetings into action. Mirrors the live [Claap Agent Gallery](https://claap.io/agent-gallery).
+
+```
+/plugin marketplace add clementsprs/claap-skills
+/plugin install claap@claap-skills
+```
+
+See [`plugins/claap/README.md`](plugins/claap/README.md) for the full agent list and per-agent MCP prerequisites.
+
+## Available standalone skills
+
+These single-file `.skill` files live in [`design-skills/`](design-skills/).
 
   ### extract-branding-theme
 
@@ -32,7 +47,7 @@
 
   ## Using a skill
 
-  Download the `.skill` file, upload it to Claude.ai as a personal skill (or drop it into your local skills folder), then describe your task. Claude auto-loads it when triggers match.
+  Download the `.skill` file from [`design-skills/`](design-skills/), upload it to Claude.ai as a personal skill (or drop it into your local skills folder), then describe your task. Claude auto-loads it when triggers match.
 
   ## Contributing
 

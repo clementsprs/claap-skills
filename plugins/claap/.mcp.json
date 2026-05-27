@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "claap": {
+      "type": "http",
+      "url": "https://api.claap.io/mcp"
+    }
+  }
+}

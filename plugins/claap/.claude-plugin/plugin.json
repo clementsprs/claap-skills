@@ -1,0 +1,24 @@
+{
+  "name": "claap",
+  "displayName": "Claap",
+  "description": "Ready-to-run AI agents for revenue teams, grounded in your real Claap call recordings. Win/loss analysis, battlecards, onboarding decks, customer stories, daily recaps and more \u2014 each a skill that pulls transcripts via the Claap MCP and turns meetings into action.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Claap",
+    "url": "https://claap.io"
+  },
+  "homepage": "https://claap.io/agent-gallery",
+  "repository": "https://github.com/clementsprs/claap-skills",
+  "license": "MIT",
+  "keywords": [
+    "claap",
+    "sales",
+    "revops",
+    "customer-success",
+    "meetings",
+    "call-recording",
+    "transcripts",
+    "crm",
+    "go-to-market"
+  ]
+}
