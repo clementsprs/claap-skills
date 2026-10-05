@@ -7,7 +7,7 @@ This repo hosts two things:
 
 ## The Claap plugin — AI agents for revenue teams
 
-Eight ready-to-run agents that work on your real **Claap** call recordings — win/loss analysis, battlecards, onboarding decks, customer stories, daily recaps and more. Each pulls transcripts and deal context via the [Claap MCP server](https://help.claap.io/en/articles/11786341-connect-claude-ai-with-claap-s-mcp-server) (bundled, OAuth) and turns meetings into action. Mirrors the live [Claap Agent Gallery](https://claap.io/agent-gallery).
+Eleven ready-to-run agents that work on your real **Claap** call recordings — win/loss analysis, deal risk, battlecards, rep ramp drills, onboarding decks, customer stories, SEO keywords, daily recaps and more. Each pulls transcripts and deal context via the [Claap MCP server](https://help.claap.io/en/articles/11786341-connect-claude-ai-with-claap-s-mcp-server) (bundled, OAuth) and turns meetings into action. Mirrors the live [Claap Agent Gallery](https://claap.io/agent-gallery).
 
 ```
 /plugin marketplace add clementsprs/claap-skills

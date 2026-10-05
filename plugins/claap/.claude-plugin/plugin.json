@@ -1,8 +1,8 @@
 {
   "name": "claap",
   "displayName": "Claap",
-  "description": "Ready-to-run AI agents for revenue teams, grounded in your real Claap call recordings. Win/loss analysis, battlecards, onboarding decks, customer stories, daily recaps and more \u2014 each a skill that pulls transcripts via the Claap MCP and turns meetings into action.",
-  "version": "0.1.0",
+  "description": "Ready-to-run AI agents for revenue teams, grounded in your real Claap call recordings. Win/loss analysis, battlecards, onboarding decks, customer stories, daily recaps and more \u2014 each a skill that reads calls, deals and emails via the Claap MCP and turns meetings into action.",
+  "version": "0.2.0",
   "author": {
     "name": "Claap",
     "url": "https://claap.io"
