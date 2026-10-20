@@ -21,6 +21,7 @@ On first use each agent authorizes the **Claap** MCP server
 
 | Skill | What it does |
 |---|---|
+| 🧭 `account-brief-builder` | Walk into every call knowing what the account already told you. Account Brief Builder reads every call, email and deal on the account in Claap and sends you a one-page brief in Slack before the meeting: who's in the room, what they said, what's still open, and what to get out of this call. |
 | 🥊 `battlecard-generator` | Create competitor battlecards on demand — grounded in real prospect quotes from Claap recordings and verified against your product docs + the competitor's. |
 | 🎓 `customer-onboarding-deck-builder` | Turn every closed-won deal into persona-specific onboarding decks — IC sales, managers, CSMs, product, execs — grounded in real CRM data and Claap transcripts. |
 | ✍️ `customer-story-writer` | Generate a cinematic customer story page from every won deal — hero, quotes carousel, ROI metrics, deal timeline — and publish directly to your CMS. |
